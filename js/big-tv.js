@@ -10,7 +10,7 @@ const TRANSITION_DURATION = {{ site.transition_duration }}
 window.setInterval(loadPages, 60000)
 
 function loadPages() {
-  fetch('../pages.json')
+  fetch('{{ site.baseurl }}/pages.json')
     .then((response) => response.json())
     .then((newPages) => {
       pages = newPages
