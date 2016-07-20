@@ -23,11 +23,11 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 80px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 header {
@@ -40,7 +40,7 @@ header {
 }
 
 #transition {
-  height: 4px;
+  height: 10px;
   background-color: #ed1c24;
   flex-shrink: 0;
 
