@@ -6,13 +6,11 @@ var started = false
 
 const TRANSITION_DURATION = {{ site.transition_duration }}
 
-// Load new pages every minute
-window.setInterval(loadPages, 60000)
-
 function loadPages() {
   fetch('{{ site.baseurl }}/pages.json')
     .then((response) => response.json())
     .then((newPages) => {
+      console.log(`Data loaded: ${newPages.length} pages`)
       pages = newPages
 
       if (!started) {
@@ -29,6 +27,7 @@ function startBigTV() {
   var iframe = document.getElementById('iframe')
   var title = document.getElementById('title')
   var displayUrl = document.getElementById('display-url')
+  var transition = document.getElementById('transition')
 
   function updatePage() {
     const page = pages[currentPage]
@@ -38,11 +37,15 @@ function startBigTV() {
     }
 
     iframe.style.opacity = 0;
+    transition.className = ''
+    transition.style.width = 0;
     window.setTimeout(() => {
       iframe.src = page.url
       displayUrl.innerHTML = page.display_url
       title.innerHTML = page.title
       iframe.style.opacity = 1;
+      transition.className = 'active'
+      transition.style.width = '100%';
     }, 2000)
 
     currentPage = (currentPage + 1) % pages.length
@@ -51,5 +54,8 @@ function startBigTV() {
   window.setInterval(updatePage, TRANSITION_DURATION * 1000)
   updatePage()
 }
+
+// Load new pages every minute
+window.setInterval(loadPages, 60000)
 
 loadPages()

@@ -1,3 +1,6 @@
+---
+---
+
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +37,20 @@ header {
   justify-content: space-between;
   padding: 20px;
   align-items: center;
+}
+
+#transition {
+  height: 4px;
+  background-color: #ed1c24;
+  flex-shrink: 0;
+
+  width: 0;
+}
+
+#transition.active {
+  transition-property: width;
+  transition-duration: {{ site.transition_duration }}s;
+  transition-timing-function: linear;
 }
 
 article {
