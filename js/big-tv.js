@@ -7,8 +7,15 @@ var started = false
 const TRANSITION_DURATION = {{ site.transition_duration }}
 const FADE_TRANSITION_DURATION = {{ site.fade_transition_duration }}
 
+var fetchHeaders = new Headers();
+fetchHeaders.append('pragma', 'no-cache');
+fetchHeaders.append('cache-control', 'no-cache');
+
 function loadPages() {
-  fetch('{{ site.baseurl }}/pages.json')
+  fetch('{{ site.baseurl }}/pages.json', {
+    method: 'GET',
+    headers: fetchHeaders,
+  })
     .then((response) => response.json())
     .then((newPages) => {
       console.log(`Data loaded: ${newPages.length} pages`)
