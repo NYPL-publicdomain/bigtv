@@ -33,6 +33,7 @@ function startBigTV() {
     const page = pages[currentPage]
 
     if (!page) {
+      currentPage = 0
       return
     }
 
@@ -56,6 +57,6 @@ function startBigTV() {
 }
 
 // Load new pages every minute
-window.setInterval(loadPages, 60000)
+window.setInterval(loadPages, 60 * 1000)
 
 loadPages()
