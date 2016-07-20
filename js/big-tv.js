@@ -5,6 +5,7 @@ var pages = []
 var started = false
 
 const TRANSITION_DURATION = {{ site.transition_duration }}
+const FADE_TRANSITION_DURATION = {{ site.fade_transition_duration }}
 
 function loadPages() {
   fetch('{{ site.baseurl }}/pages.json')
@@ -41,13 +42,14 @@ function startBigTV() {
     transition.className = ''
     transition.style.width = 0;
     window.setTimeout(() => {
+
       iframe.src = page.url
       displayUrl.innerHTML = page.display_url
       title.innerHTML = page.title
       iframe.style.opacity = 1;
       transition.className = 'active'
       transition.style.width = '100%';
-    }, 2000)
+    }, FADE_TRANSITION_DURATION * 1000)
 
     currentPage = (currentPage + 1) % pages.length
   }

@@ -1,3 +1,4 @@
 baseurl: /big-tv
 
 transition_duration: 20 # In seconds
+fade_transition_duration: 5 # In seconds

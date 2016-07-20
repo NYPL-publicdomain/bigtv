@@ -62,6 +62,6 @@ iframe {
   width: 100%;
   border: none;
 
-  transition: opacity 2s;
+  transition: opacity {{ site.fade_transition_duration }}s;
   position: absolute;
 }

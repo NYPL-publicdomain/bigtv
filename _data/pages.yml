@@ -1,10 +1,10 @@
-- title: Segue
-  url: http://giphy.com/gifs/fsAN3AWWtw3N6
-  display_url: http://giphy.com/gifs/fsAN3AWWtw3N6
-
 - title: 1854 Street Centerlines
   url: http://spacetime.nypl.org/centerlines/
   display_url: http://spacetime.nypl.org/centerlines/
+
+- title: Surveyor
+  url: http://spacetime.nypl.org/here
+  display_url: http://spacetime.nypl.org/surveyor
 
 - title: Photographers’ Identities Catalog
   url: http://pictv.herokuapp.com/
