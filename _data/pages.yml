@@ -8,11 +8,11 @@
 
 - title: 1854 Street Centerlines
   url: http://spacetime.nypl.org/centerlines/
-  display_url: http://mgiraldo.github.io/centerlines/
+  display_url: http://spacetime.nypl.org/centerlines/
 
-- title: PIC
-  url: http://pic.nypl.org/map
-  display_url: http://pic.nypl.org/map
+- title: Photographers’ Identities Catalog
+  url: http://pictv.herokuapp.com/
+  display_url: http://pic.nypl.org
 
 - title: New York Times
   url: http://www.nytimes.com/
