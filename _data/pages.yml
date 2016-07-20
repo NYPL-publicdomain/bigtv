@@ -9,3 +9,11 @@
 - title: Photographers’ Identities Catalog
   url: http://pictv.herokuapp.com/
   display_url: http://pic.nypl.org
+
+- title: Stereogranimator
+  url: http://stereo.nypl.org/view/89382
+  display_url: http://stereo.nypl.org/
+
+- title: Digital Collections
+  url: http://digitalcollections.nypl.org/collections/atlases-of-new-york-city#/?tab=navigation
+  display_url: http://digitalcollections.nypl.org/
