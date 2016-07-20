@@ -11,7 +11,7 @@
   display_url: http://mgiraldo.github.io/centerlines/
 
 - title: PIC
-  url: http://pictv.heroku.com
+  url: http://pictv.herokuapp.com/
   display_url: http://pic.nypl.org
 
 - title: New York Times
