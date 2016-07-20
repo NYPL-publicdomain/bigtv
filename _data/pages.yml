@@ -11,8 +11,8 @@
   display_url: http://mgiraldo.github.io/centerlines/
 
 - title: PIC
-  url: http://pic.nypl.org/map
-  display_url: http://pic.nypl.org/map
+  url: http://pictv.heroku.com
+  display_url: http://pic.nypl.org
 
 - title: New York Times
   url: http://www.nytimes.com/
