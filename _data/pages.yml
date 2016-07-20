@@ -1,3 +1,7 @@
+- title: Images From Digital Collections
+  url: http://next-please.herokuapp.com/
+  display_url: ""
+
 - title: 1854 Street Centerlines
   url: http://spacetime.nypl.org/centerlines/
   display_url: http://spacetime.nypl.org/centerlines/
@@ -21,7 +25,3 @@
 # - title: Map Warper
 #   url: http://maps.nypl.org/warper/maps/15321#Show_tab
 #   display_url: http://maps.nypl.org/
-
-- title: Images From Digital Collections
-  url: http://next-please.herokuapp.com/
-  display_url: ""
