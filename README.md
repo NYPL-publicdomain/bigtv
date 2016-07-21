@@ -1,3 +1,3 @@
 # Big TV
 
-http://spacetime.nypl.org/big-tv
+http://nypl.github.io/bigtv/
