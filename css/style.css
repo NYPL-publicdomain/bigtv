@@ -45,7 +45,7 @@ header {
 
 #transition {
   height: 5px;
-  background-color: black;
+  background-color: #ed1c24;
   flex-shrink: 0;
 
   width: 0;
