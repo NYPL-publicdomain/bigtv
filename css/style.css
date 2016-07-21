@@ -29,6 +29,9 @@ h1 {
 }
 
 h2 {
+  font-family: 'Kievit';
+  font-weight: 500;
+  font-style: normal;
   font-size: 2vw;
 }
 
