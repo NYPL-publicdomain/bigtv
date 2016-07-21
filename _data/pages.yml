@@ -1,10 +1,10 @@
-- title: Images From Digital Collections
-  url: http://next-please.herokuapp.com/
-  display_url: ""
-
 - title: Photographers’ Identities Catalog
   url: http://pictv.herokuapp.com/
   display_url: http://pic.nypl.org
+
+- title: Images From Digital Collections
+  url: http://next-please.herokuapp.com/
+  display_url: ""
 
 - title: 1854 Street Centerlines
   url: http://spacetime.nypl.org/centerlines/
