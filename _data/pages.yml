@@ -10,9 +10,9 @@
   url: http://spacetime.nypl.org/centerlines/
   display_url: spacetime.nypl.org/centerlines/
 
-# - title: Surveyor
-#   url: http://spacetime.nypl.org/here
-#   display_url: spacetime.nypl.org/surveyor
+- title: NYPL Staff Picks
+  url: http://get-staff-picks.herokuapp.com
+  display_url: ""
 
 # - title: Stereogranimator
 #   url: http://stereo.nypl.org/view/89382
