@@ -2,6 +2,10 @@
   url: http://next-please.herokuapp.com/
   display_url: ""
 
+- title: Photographers’ Identities Catalog
+  url: http://pictv.herokuapp.com/
+  display_url: http://pic.nypl.org
+
 - title: 1854 Street Centerlines
   url: http://spacetime.nypl.org/centerlines/
   display_url: http://spacetime.nypl.org/centerlines/
@@ -9,10 +13,6 @@
 - title: Surveyor
   url: http://spacetime.nypl.org/here
   display_url: http://spacetime.nypl.org/surveyor
-
-- title: Photographers’ Identities Catalog
-  url: http://pictv.herokuapp.com/
-  display_url: http://pic.nypl.org
 
 # - title: Stereogranimator
 #   url: http://stereo.nypl.org/view/89382
