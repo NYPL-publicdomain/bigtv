@@ -1,6 +1,6 @@
 - title: Photographers’ Identities Catalog
   url: http://pictv.herokuapp.com/
-  display_url: http://pic.nypl.org
+  display_url: pic.nypl.org
 
 - title: Images From Digital Collections
   url: http://next-please.herokuapp.com/
@@ -8,20 +8,20 @@
 
 - title: 1854 Street Centerlines
   url: http://spacetime.nypl.org/centerlines/
-  display_url: http://spacetime.nypl.org/centerlines/
+  display_url: spacetime.nypl.org/centerlines/
 
 # - title: Surveyor
 #   url: http://spacetime.nypl.org/here
-#   display_url: http://spacetime.nypl.org/surveyor
+#   display_url: spacetime.nypl.org/surveyor
 
 # - title: Stereogranimator
 #   url: http://stereo.nypl.org/view/89382
-#   display_url: http://stereo.nypl.org/
+#   display_url: stereo.nypl.org/
 
 # - title: Digital Collections
 #   url: http://digitalcollections.nypl.org/collections/atlases-of-new-york-city#/?tab=navigation
-#   display_url: http://digitalcollections.nypl.org/
+#   display_url: digitalcollections.nypl.org/
 
 # - title: Map Warper
 #   url: http://maps.nypl.org/warper/maps/15321#Show_tab
-#   display_url: http://maps.nypl.org/
+#   display_url: maps.nypl.org/
