@@ -1,3 +1,7 @@
+- title: NYPL Staff Picks
+  url: http://get-staff-picks.herokuapp.com
+  display_url: ""
+
 - title: Photographers’ Identities Catalog
   url: http://pictv.herokuapp.com/
   display_url: pic.nypl.org
@@ -9,10 +13,6 @@
 - title: 1854 Street Centerlines
   url: http://spacetime.nypl.org/centerlines/
   display_url: spacetime.nypl.org/centerlines/
-
-- title: NYPL Staff Picks
-  url: http://get-staff-picks.herokuapp.com
-  display_url: ""
 
 # - title: Stereogranimator
 #   url: http://stereo.nypl.org/view/89382
