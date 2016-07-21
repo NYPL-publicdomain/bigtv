@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  
+  background: black;
   cursor: none;
 }
 
@@ -25,11 +25,11 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 3vw;
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 2vw;
 }
 
 header {
@@ -39,11 +39,13 @@ header {
   justify-content: space-between;
   padding: 20px;
   align-items: center;
+  background: black;
+  color: white;
 }
 
 #transition {
-  height: 10px;
-  background-color: #ed1c24;
+  height: 5px;
+  background-color: black;
   flex-shrink: 0;
 
   width: 0;
