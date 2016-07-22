@@ -18,10 +18,10 @@
   display_url: spacetime.nypl.org/centerlines
   code: centerlines
 
-- title: NYPL Tweetwall
-  url: http://tweetwall.nypl.org/
-  display_url: tweetwall.nypl.org
-  code: tweetwall
+# - title: NYPL Tweetwall
+#   url: http://tweetwall.nypl.org/
+#   display_url: tweetwall.nypl.org
+#   code: tweetwall
 
 # - title: Stereogranimator
 #   url: http://stereo.nypl.org/view/89382
