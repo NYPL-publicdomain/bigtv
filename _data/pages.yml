@@ -1,10 +1,10 @@
-- title: NYPL Staff Picks
-  url: http://get-staff-picks.herokuapp.com
-  display_url: ""
-
 - title: Photographers’ Identities Catalog
   url: http://pictv.herokuapp.com/
   display_url: pic.nypl.org
+
+- title: NYPL Staff Picks
+  url: http://get-staff-picks.herokuapp.com
+  display_url: ""
 
 - title: Images From Digital Collections
   url: http://next-please.herokuapp.com/
