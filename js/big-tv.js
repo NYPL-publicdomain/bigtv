@@ -61,11 +61,33 @@ function startBigTV() {
     currentPage = (currentPage + 1) % pages.length
   }
 
+  function loadCommand() {
+    var siteCodes = pages.map(function (page) { return page.code; })
+    
+    fetch('{{ site.command_api_endpoint }}?type=' + siteCodes.join(','), {
+      method: 'GET',
+      headers: fetchHeaders,
+    })
+      .then((response) => response.json())
+      .then((command) => {
+        if (command && command.action && siteCodes.indexOf(command.action) >= 0) {
+          currentPage = siteCodes.indexOf(command.action)
+          updatePage()
+        }
+      })
+      .catch((err) => console.log('parsing failed', err))
+  }
+
   window.setInterval(updatePage, TRANSITION_DURATION * 1000)
   updatePage()
+
+  window.setInterval(loadCommand, 5 * 1000)
 }
+
+
 
 // Load new pages every minute
 window.setInterval(loadPages, 60 * 1000)
+
 
 loadPages()

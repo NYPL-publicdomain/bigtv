@@ -1,4 +1,6 @@
 baseurl: /bigtv
 
+command_api_endpoint: http://next-please.herokuapp.com/advance_command
+
 transition_duration: 300 # In seconds
 fade_transition_duration: 5 # In seconds
