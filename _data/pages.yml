@@ -1,18 +1,27 @@
 - title: Photographers’ Identities Catalog
   url: http://pictv.herokuapp.com/
   display_url: pic.nypl.org
+  code: pic
 
 - title: NYPL Staff Picks
   url: http://get-staff-picks.herokuapp.com
   display_url: nypl.org/staffpicks
+  code: picks
 
 - title: Images From Digital Collections
   url: http://next-please.herokuapp.com/
   display_url: digitalcollections.nypl.org
+  code: dc
 
 - title: 1854 Street Centerlines
   url: http://spacetime.nypl.org/centerlines/
-  display_url: spacetime.nypl.org/centerlines/
+  display_url: spacetime.nypl.org/centerlines
+  code: centerlines
+
+- title: NYPL Tweetwall
+  url: http://tweetwall.nypl.org/
+  display_url: tweetwall.nypl.org
+  code: tweetwall
 
 # - title: Stereogranimator
 #   url: http://stereo.nypl.org/view/89382
