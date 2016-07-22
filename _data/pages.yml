@@ -4,7 +4,7 @@
 
 - title: NYPL Staff Picks
   url: http://get-staff-picks.herokuapp.com
-  display_url: ""
+  display_url: nypl.org/staffpicks
 
 - title: Images From Digital Collections
   url: http://next-please.herokuapp.com/
