@@ -1,7 +1,7 @@
-- title: Photographers’ Identities Catalog
-  url: http://pictv.herokuapp.com/
-  display_url: pic.nypl.org
-  code: pic
+# - title: Photographers’ Identities Catalog
+#   url: http://pictv.herokuapp.com/
+#   display_url: pic.nypl.org
+#   code: pic
 
 # - title: NYPL Staff Picks
 #   url: http://get-staff-picks.herokuapp.com
